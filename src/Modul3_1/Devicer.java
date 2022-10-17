@@ -20,13 +20,13 @@ class specs extends smartphone{
 }
 
 class price extends smartphone{
-    int harga1;
-    int harga2;
-    int harga3;
-    public price(int harga1, int harga2, int harga3){
-        this.harga1 = harga1;
-        this.harga2 = harga2;
-        this.harga3 = harga3;
+    int price1;
+    int price2;
+    int price3;
+    public price(int price1, int price2, int price3){
+        this.price1 = price1;
+        this.price2 = price2;
+        this.price3 = price3;
     }
 
 }
@@ -56,8 +56,8 @@ public class Devicer{
         color xas = new color("Red","Purple","Yellow","Green","White","Black");
         System.out.println("Smartphone Colors\t\t: "+xas.color1+" ,"+xas.color2+" ,"+xas.color3+" ,"+xas.color4+" ,"+xas.color5+" ,"+xas.color6);
         price xaa = new price(6600000,7550000,7750000);
-        System.out.println("Harga Smartphone\t\t: Rp." +xaa.harga1);
-        System.out.println("\t\t\t\t\t\t  Rp."+xaa.harga2);
-        System.out.println("\t\t\t\t\t\t  Rp."+xaa.harga3);
+        System.out.println("Harga Smartphone\t\t: Rp." +xaa.price1);
+        System.out.println("\t\t\t\t\t\t  Rp."+xaa.price2);
+        System.out.println("\t\t\t\t\t\t  Rp."+xaa.price3);
     }
 }
