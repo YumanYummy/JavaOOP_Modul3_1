@@ -54,7 +54,7 @@ public class Devicer{
         specs xyy = new specs("64gb","128gb","256gb");
         System.out.println("Smartphone Specifications\t: " +xyy.spek1+ " "+xyy.spek2+" "+xyy.spek3);
         color xas = new color("Red","Purple","Yellow","Green","White","Black");
-        System.out.println("Warna Smartphone\t\t: "+xas.color1+" ,"+xas.color2+" ,"+xas.color3+" ,"+xas.color4+" ,"+xas.color5+" ,"+xas.color6);
+        System.out.println("Smartphone Colors\t\t: "+xas.color1+" ,"+xas.color2+" ,"+xas.color3+" ,"+xas.color4+" ,"+xas.color5+" ,"+xas.color6);
         price xaa = new price(6600000,7550000,7750000);
         System.out.println("Harga Smartphone\t\t: Rp." +xaa.harga1);
         System.out.println("\t\t\t\t\t\t  Rp."+xaa.harga2);
